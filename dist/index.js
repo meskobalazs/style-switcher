@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class MapboxStyleSwitcherControl {
+export class MapboxStyleSwitcherControl {
     constructor(styles, options) {
         this.styles = styles || MapboxStyleSwitcherControl.DEFAULT_STYLES;
         const defaultStyle = typeof (options) === "string" ? options : options ? options.defaultStyle : undefined;
@@ -92,5 +90,4 @@ MapboxStyleSwitcherControl.DEFAULT_STYLES = [
     { title: "Satellite", uri: "mapbox://styles/mapbox/satellite-streets-v11" },
     { title: "Streets", uri: "mapbox://styles/mapbox/streets-v11" }
 ];
-exports.MapboxStyleSwitcherControl = MapboxStyleSwitcherControl;
 //# sourceMappingURL=index.js.map
